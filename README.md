@@ -12,26 +12,13 @@ Welcome to my Node.js project! This project is built using Node.js, Express, Mon
 
 # Table of Contents
 
-• Installation
-• Usage
-• API Endpoints
-• Validation
-• Pagination
-• Contributing
+• Installation                                                                                                                                         
+• Usage                                                                                                                                                 
+• API Endpoints                                                                                                                                         
+• Validation                                                                                                                                           
+• Pagination                                                                                                                                           
+• Contributing                                                                                                                                         
 • License
-
-# QUERY Fields
-
-'featured, company, name, sort, fields, numericFilters'  
-/api/v1/products?name=<productName> i.e. /api/v1/products?name=armchair  
-/api/v1/products?company=<companyName> i.e. /api/v1/products?company=marcos  
-/api/v1/products?sort=<filedName(s)> i.e. /api/v1/products?sort=name,price  
-/api/v1/products?fields=<fieldName(s)> i.e. /api/v1/products?fields=name,price,company  
-/api/v1/products?NumericFilters=<fieldName(s)(>|<|=|>=|<=)value> i.e /api/v1/products?NumericFilters=price<1000,rating>4
-
-You can combine multiple filters to your desire.
-
-Below you'll find some useful information and links to documentation for commonly used npm commands.
 
 # Installation
 
@@ -69,9 +56,9 @@ An alternate for this command is 'npm run dev'
 
 ## Get Products
 
-You can get the products by sending a Get request to /products routes. You can perform multiple queries to get products like sorting, limiting, searching for certain fields, searching using certain mathematical filters.
-These keywords should be used for queries ['featured, company, name, sort, fields, numericFilters'].
-Forexample:
+You can get the products by sending a Get request to /products routes. You can perform multiple queries to get products like sorting, limiting, searching for certain fields, searching using certain mathematical filters.                                                                             
+These keywords should be used for queries [ featured, company, name, sort, fields, numericFilters].                                                     
+Forexample:                                                                                                                                             
 
 • /products?name=armchair  
 • /products?company=marcos  
