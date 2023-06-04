@@ -1,14 +1,13 @@
 # Store-API
 
 Welcome to my Node.js project! This project is built using Node.js, Express, Mongoose, and utilizes npm for package management. In this project, I have created an API where I have handled multiple queries like:
-
-**1.** Searching by name(and for name I have used $regex feature of MongoDB which checks if name provided matches any substring in the name).
-**2.** Search by company name.
-**3.** Filtering whether certain products are featured or not.
-**4.** Sorting the values on the provided fields.
-**5.** Selecting certain fields.
-**6.** Limiting the products displayed.
-**7.** Accessing a certain page.
+**1.** Searching by name(and for name I have used $regex feature of MongoDB which checks if name provided matches any substring in the name).           
+**2.** Search by company name.                                                                                                                         
+**3.** Filtering whether certain products are featured or not.                                                                                         
+**4.** Sorting the values on the provided fields.                                                                                                       
+**5.** Selecting certain fields.                                                                                                                       
+**6.** Limiting the products displayed.                                                                                                                 
+**7.** Accessing a certain page.                                                                                                                       
 
 # Table of Contents
 
@@ -24,10 +23,10 @@ Welcome to my Node.js project! This project is built using Node.js, Express, Mon
 
 To get started with this project, follow the steps below:
 
-**1.** Clone the repository:
+**1.** Clone the repository:                                                                                                                           
 git clone https://github.com/DawoodShah009/Node-Store-API.git
 
-**2.** Install project dependencies:
+**2.** Install project dependencies:                                                                                                                   
 npm install
 
 ## Available Scripts
