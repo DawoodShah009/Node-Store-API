@@ -12,7 +12,7 @@ Welcome to my Node.js project! This project is built using Node.js, Express, Mon
 
 # QUERY Fields
 
-'featured, company, name, sort, fields, numericFilters'
+'featured, company, name, sort, fields, numericFilters'                     
 /api/v1/products?name=<productName> i.e. /api/v1/products?name=armchair
 /api/v1/products?company=<companyName> i.e. /api/v1/products?company=marcos
 /api/v1/products?sort=<filedName(s)> i.e. /api/v1/products?sort=name,price
