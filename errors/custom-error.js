@@ -5,7 +5,7 @@ class CustomApiError extends Error {
   }
 }
 
-const createCustomError = (ms, statusCode) => {
+const createCustomError = (msg, statusCode) => {
   return new CustomApiError(msg, statusCode)
 }
 
