@@ -1,6 +1,6 @@
 # Store-API
 
-Welcome to my Node.js project! This project is built using Node.js, Express, Mongoose, and utilizes npm for package management. In this project, I have created an API where I have handled multiple queries like:                                                                                             
+Welcome to my Node.js project! This project is built using Node.js, Express, Mongoose, and utilizes npm for package management. In this project, I have created an API where I have handled multiple queries like:                                                                                              
 **1.** Searching by name(and for name I have used $regex feature of MongoDB which checks if name provided matches any substring in the name).           
 **2.** Search by company name.                                                                                                                         
 **3.** Filtering whether certain products are featured or not.                                                                                         
@@ -68,8 +68,8 @@ For the working, product.json file has been provided along with populate.js file
 
 # API Endpoints
 
-**Base Url**: _/api/v1_                                                                                                                                 
-The following API endpoint(s) is available:                                                                                                           
+**Base Url**: _/api/v1_                                                                                                                                  
+The following API endpoint(s) is available:                                                                                                              
 • GET /products: Get Products.
 
 # Validation
